@@ -1,0 +1,42 @@
+{
+  "name": "NodeJs-second-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon ./src/server.js",
+    "playground": "nodemon ./src/playground.js",
+    "queue": "nodemon ./src/queue.js"
+  },
+  "dependencies": {
+    "@sentry/node": "^7.86.0",
+    "@sentry/profiling-node": "^1.2.6",
+    "bcryptjs": "^2.4.3",
+    "bee-queue": "^1.7.1",
+    "date-fns": "^3.0.0-alpha.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "redis": "^4.6.11",
+    "sequelize": "^6.35.1",
+    "youch": "^3.3.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0",
+    "sequelize-cli": "^6.6.2",
+    "sucrase": "^3.34.0"
+  }
+}
